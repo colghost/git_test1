@@ -1,0 +1,23 @@
+To Clone a Repository:
+	1. Make a new directory for it on local machine
+	2. git clone git@github.com:colghost/git_test1.git
+
+
+git remote -v : shows the URL of the repository
+
+git status : shows which files have been staged/uploaded
+	- red: not staged
+	- green: staged
+	- no output: all changes have been committed
+
+git add filename.txt : adds the file to the staging arae in Git.
+git add . :adds all files in current directory and subsequent directories 
+
+git commit -m "Add filename.txt"
+
+git log: shows a log about what files were committed, when, where, and who
+
+
+
+
+
